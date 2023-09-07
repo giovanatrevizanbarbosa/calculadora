@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    margin: 5px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#principal{
+    margin-top: 100px;
+}
+.numeros-operacoes, .opcoes{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+}
+.numeros-operacoes:hover, .opcoes:hover{
+    background-color: lightpink;
+}
+#tela{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 205px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
+}
+#tela-texto{
+    margin-right: 5px;
+}
